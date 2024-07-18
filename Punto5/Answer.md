@@ -1,0 +1,1 @@
+## La interacción con Gemini se hace cuando se hacen las peticiones y se llaman las funciones summarize_text y count_tokens, las cuales hacen uso de gemini-1.5-flash para dar respuesta a los prompts.
