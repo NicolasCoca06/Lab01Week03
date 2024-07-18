@@ -30,9 +30,10 @@ while choice < 4 do
     puts "\n\nSubtract some Numbers\n\n"
   else
   end
-end
+end 
+<!-- Fin del código Ruby -->
 
-## La respuesta fue:
+# La respuesta fue:
 ## Traducción a python
 import os
 
