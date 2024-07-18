@@ -1,7 +1,10 @@
+# Traducciones
+
 ## Ruby Snippet
-## El prompt fue:
+### El prompt fue:
 Traduce este código a python:
 
+```ruby
 def menu ()
   menu_string = "1. Show Menu\n"
   menu_string += "2. Add Numbers\n"
