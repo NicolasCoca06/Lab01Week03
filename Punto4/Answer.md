@@ -31,10 +31,10 @@ while choice < 4 do
   else
   end
 end 
-<!-- Fin del código Ruby -->
-
-# La respuesta fue:
-## Traducción a python
+```
+### La respuesta fue:
+### Traducción a python
+```python
 import os
 
 def menu():
@@ -61,12 +61,13 @@ while choice < 4:
         print("\n\nSubtract some Numbers\n\n")
     else:
         pass
-
+```
 
 ## Javascript/NodeJS snippet
-## El prompt fue:
+### El prompt fue:
 Traduce este código a python:
 
+```js
 const generateUUID = () =>
   ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
     (
@@ -74,18 +75,20 @@ const generateUUID = () =>
       (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
     ).toString(16)
   );
-## La respuesta fue:
-## Traducción a python
-
+```
+### La respuesta fue:
+### Traducción a python
+```python
 import uuid
 
 def generate_uuid():
     return str(uuid.uuid4())
-
+```
 
 ## Golang snippet
-## El prompt fue:
+### El prompt fue:
 Traduce este código a python:
+```golang
 package main
 
 import "fmt"
@@ -97,9 +100,12 @@ func ReverseString(s string) string {
   }
   return string(r)
 }
+```
 
-## La respuesta fue:
-## Traducción a python
+### La respuesta fue:
+### Traducción a python
+
+```py
 def reverse_string(s):
     return s[::-1]
-
+```
